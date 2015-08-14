@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ThreadLearning/ThreadLearning.iml" filepath="$PROJECT_DIR$/ThreadLearning/ThreadLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitlearn.iml" filepath="$PROJECT_DIR$/gitlearn.iml" />
+    </modules>
+  </component>
+</project>
