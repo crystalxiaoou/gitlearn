@@ -7,6 +7,8 @@ import javathreads.examples.ch04.CharacterSource;
 
 import java.awt.*;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -20,55 +22,60 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class AnimatedCharacterDisplayCanvas extends CharacterDisplayCanvas implements CharacterListener, Runnable {
     private static final int WAIT_TIME = 100;
-    private boolean done = true;
-    private int curX = 0;
+    private AtomicBoolean done = new AtomicBoolean(true);
+    private AtomicInteger curX = new AtomicInteger(0);
+    private AtomicInteger tempChar = new AtomicInteger(0);
     private Thread timer = null;
-    private Lock lock = new ReentrantLock();
-    private Condition cv = lock.newCondition();
-
 
     public  AnimatedCharacterDisplayCanvas(){
+        startAnimationThread();
+    }
+
+    private void startAnimationThread() {
+        if(timer == null) {
+            timer = new Thread(this);
+            timer.start();
+        }
     }
 
     public AnimatedCharacterDisplayCanvas(CharacterSource cs){
         super(cs);
+        startAnimationThread();
     }
 
-    public synchronized  void newCharacter(CharacterEvent ce){
-        curX = 0;
-        tmpChar[0] = (char) ce.character;
+    public void newCharacter(CharacterEvent ce){
+        curX.set(0);
+        tempChar.set(ce.character);
         repaint();
     }
 
-    protected synchronized void paintComponent(Graphics gc){
+    protected  void paintComponent(Graphics gc){
+        char[] localTmpChar = new char[1];
+        localTmpChar[0] = (char) tempChar.get();
+        int localCurX = curX.get();
         Dimension d = getSize();
+        int charWidth = fm.charWidth(localTmpChar[0]);
         gc.clearRect(0, 0, d.width, d.height);
-        if(tmpChar[0] == 0)
+        if(localTmpChar[0] == 0) {
             return;
-        int charWidth = fm.charWidth(tmpChar[0]);
-        gc.drawChars(tmpChar, 0, 1, curX++, fontHeight);
+        }
+        gc.drawChars(localTmpChar, 0, 1, localCurX, fontHeight);
+        curX.getAndIncrement();
     }
 
     /**
      * 这里的run()方法上加上synchronzied,是为了使用wait()和wait(long）
      */
     public  void run() {
-        try{
-            lock.lock();
-            while (true) {
-                try {
-                    if (done) {
-                        cv.await();
-                    } else {
-                        repaint();
-                        cv.await(WAIT_TIME, TimeUnit.MILLISECONDS);
-                    }
-                } catch (InterruptedException ie) {
-                    return;
+        while (true) {
+            try {
+                Thread.sleep(WAIT_TIME);
+                if(!done.get()){
+                    repaint();
                 }
+            } catch (InterruptedException ie) {
+                return;
             }
-        } finally {
-            lock.unlock();
         }
     }
 
@@ -77,18 +84,6 @@ public class AnimatedCharacterDisplayCanvas extends CharacterDisplayCanvas imple
      * @param b
      */
     public  void setDone(boolean b){
-        try {
-            lock.lock();
-            done = b;
-            if (timer == null) {
-                timer = new Thread(this);
-                timer.start();
-            }
-            if (!done) {
-                cv.signal();
-            }
-        } finally {
-            lock.unlock();
-        }
+        done.set(b);
     }
 }
