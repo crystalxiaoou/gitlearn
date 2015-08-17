@@ -18,9 +18,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date : 2015/8/14 14:16
  */
 public class ScoreLabel extends JLabel implements CharacterListener {
-    private AtomicInteger score = new AtomicInteger(0);
-    private AtomicInteger char2type = new AtomicInteger(-1);
-
+    private AtomicScoreAndCharacter scoreAChar = new AtomicScoreAndCharacter();
     private AtomicReference<CharacterSource> generator = null, typist = null;
     private Lock scoreLock = new ReentrantLock();
 
@@ -65,42 +63,30 @@ public class ScoreLabel extends JLabel implements CharacterListener {
     }
 
     public void resetScore(){
-        score.set(0);
-        char2type.set(-1);
+        scoreAChar.set(0, -1);
         setScore();
     }
 
     private void setScore() {
+        //  This method will be explained later in chapter 7
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                setText(Integer.toString(score.get()));
+                setText(Integer.toString(scoreAChar.getScore()));
             }
         });
     }
 
     public void newCharacter(CharacterEvent ce) {
-       int oldChar2type;
-       // 前一个字母没有正确输入: 扣一分
+        // Previous character not typed correctly -1 point penalty
         if(ce.source == generator.get()){
-            oldChar2type = char2type.getAndSet(ce.character);
-            if(oldChar2type != -1){
-                score.decrementAndGet();
-                setScore();
-            }
+            scoreAChar.setCharacterUpdateScore(ce.character);
+            setScore();
         }
-        // 如果字母是无关的: 扣一分
-        // 如果字母不相符: 扣一分
+
+        // if Character is extraneous -1 point penalty
+        // if Character does not match -1 point penalty
         else if(ce.source == typist.get()){
-            while (true){
-                oldChar2type = char2type.get();
-                if(oldChar2type != ce.character){
-                    score.decrementAndGet();
-                    break;
-                }else if(char2type.compareAndSet(oldChar2type, -1)){
-                    score.incrementAndGet();
-                    break;
-                }
-            }
+            scoreAChar.processCharacter(ce.character);
             setScore();
         }
     }

@@ -6,6 +6,7 @@ import javathreads.examples.ch04.CharacterSource;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -18,6 +19,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date : 2015/8/14 13:48
  */
 public class RandomCharacterGenerator extends Thread implements CharacterSource {
+    private static final int WAIT_TIME = 100;
     private static char[] chars;
     private static String charArray = "abcdefghijklmnopqrstuvwxyz0123456789";
     static {
@@ -26,17 +28,19 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
 
     private Random random;
     private CharacterEventHandler handler;
-    private boolean done = true;
-    private Lock lock = new ReentrantLock();
-    private Condition cv = lock.newCondition();
+    private AtomicBoolean done = new AtomicBoolean(true);
 
     public RandomCharacterGenerator(){
         random = new Random();
         handler = new CharacterEventHandler();
     }
 
+    public int getPauseTime(int minTime, int maxTime){
+        return (int) (minTime + (maxTime - minTime) * random.nextDouble());
+    }
     public int getPauseTime(){
-        return (int)(Math.max(1000, 5000 * random.nextDouble()));
+        //return (int)(Math.max(1000, 5000 * random.nextDouble()));
+        return getPauseTime(2000, 5500);
     }
 
     public void addCharacterListener(CharacterListener cl) {
@@ -59,22 +63,17 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
      * 这里的run()方法上加上synchronzied,是为了使用wait()和wait(long）
      */
     public  void run(){
-        try {
-            lock.lock();
-            while (true) {
-                try {
-                    if (done) {
-                        cv.await();
-                    } else {
-                        nextCharacter();
-                        cv.await(getPauseTime(), TimeUnit.MILLISECONDS);
-                    }
-                } catch (InterruptedException ie) {
-                    return;
+        while(true){
+            try{
+                if(done.get()){
+                    Thread.sleep(WAIT_TIME);
+                }else{
+                    nextCharacter();
+                    Thread.sleep(getPauseTime());
                 }
+            } catch (InterruptedException ex){
+                return;
             }
-        }finally {
-            lock.unlock();
         }
     }
 
@@ -84,14 +83,6 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
      * @param b
      */
     public  void setDone(boolean b){
-        try {
-            lock.lock();
-            done = b;
-            if(!done) {
-                cv.signal();
-            }
-        } finally {
-            lock.unlock();
-        }
+       done.set(b);
     }
 }
