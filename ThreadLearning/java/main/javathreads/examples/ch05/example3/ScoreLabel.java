@@ -5,6 +5,7 @@ import javathreads.examples.ch04.CharacterListener;
 import javathreads.examples.ch04.CharacterSource;
 
 import javax.swing.*;
+import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.Lock;
@@ -69,11 +70,18 @@ public class ScoreLabel extends JLabel implements CharacterListener {
 
     private void setScore() {
         //  This method will be explained later in chapter 7
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                setText(Integer.toString(scoreAChar.getScore()));
-            }
-        });
+        if(SwingUtilities.isEventDispatchThread()){
+            setText(Integer.toString(scoreAChar.getScore()));
+        }else {
+            try {
+                SwingUtilities.invokeAndWait(new Runnable() {
+                    public void run() {
+                        setText(Integer.toString(scoreAChar.getScore()));
+                    }
+                });
+            } catch (InterruptedException ie){ }
+              catch (InvocationTargetException ite){}
+        }
     }
 
     public void newCharacter(CharacterEvent ce) {

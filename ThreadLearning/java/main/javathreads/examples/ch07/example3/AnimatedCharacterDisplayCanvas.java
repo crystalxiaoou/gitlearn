@@ -1,9 +1,9 @@
-package javathreads.examples.ch05.example1;
+package javathreads.examples.ch07.example3;
 
-import javathreads.examples.ch04.CharacterDisplayCanvas;
-import javathreads.examples.ch04.CharacterEvent;
-import javathreads.examples.ch04.CharacterListener;
-import javathreads.examples.ch04.CharacterSource;
+import javathreads.examples.ch07.CharacterDisplayCanvas;
+import javathreads.examples.ch07.CharacterEvent;
+import javathreads.examples.ch07.CharacterListener;
+import javathreads.examples.ch07.CharacterSource;
 
 import java.awt.*;
 import java.util.concurrent.TimeUnit;
@@ -47,8 +47,9 @@ public class AnimatedCharacterDisplayCanvas extends CharacterDisplayCanvas imple
             return;
         int charWidth = fm.charWidth(tmpChar[0]);
         gc.drawChars(tmpChar, 0, 1, curX++, fontHeight);
-        if(curX > d.width - charWidth)
+        if(curX > d.width - charWidth){
             curX = 0;
+        }
     }
 
     /**
