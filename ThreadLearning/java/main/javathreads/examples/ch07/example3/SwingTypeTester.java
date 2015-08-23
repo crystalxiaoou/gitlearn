@@ -49,27 +49,23 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
         Container pane = getContentPane();
         JPanel p1 = new JPanel();
         p1.setLayout(new BoxLayout(p1, BoxLayout.PAGE_AXIS));
-        p1.add(displayCanvas, BorderLayout.NORTH);
-        p1.add(feedbackCanvas, BorderLayout.CENTER);
+        p1.add(displayCanvas);
+        p1.add(feedbackCanvas);
 
         JPanel p2 = new JPanel();
-        p2.setLayout(new BorderLayout());
-        score.setText("     ");
+        score.setText("         ");
         score.setFont(new Font("MONOSPACED", Font.BOLD, 30));
-        p2.add(score, BorderLayout.CENTER);
-
-        JPanel p3 = new JPanel();
-        startButton.setLabel("Start");
-        stopButton.setLabel("Stop");
+        p2.add(score);
+        startButton.setText("Start");
+        p2.add(startButton);
+        stopButton.setText("Stop");
         stopButton.setEnabled(false);
-        quitButton.setLabel("Quit");
-        p3.add(startButton);
-        p3.add(stopButton);
-        p3.add(quitButton);
-
-        p2.add(p3, BorderLayout.EAST);
+        p2.add(stopButton);
+        quitButton.setText("Quit");
+        p2.add(quitButton);
         p1.add(p2);
-        pane.add(p1, BorderLayout.SOUTH);
+        pane.add(p1, BorderLayout.NORTH);
+        pack();
 
         addWindowListener(new WindowAdapter() {
             @Override
@@ -117,7 +113,7 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
         feedbackCanvas.requestFocus();
     }
 
-    void setu
+    void setupCancelled(){ }
 
     private void newCharacter(int c) {
         handler.fireNewCharacter(this, c);
