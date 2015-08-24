@@ -1,4 +1,4 @@
-package javathreads.examples.ch07.example3;
+package javathreads.examples.ch08.example4;
 
 import javax.swing.*;
 import java.awt.*;
