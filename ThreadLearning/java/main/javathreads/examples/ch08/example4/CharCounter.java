@@ -11,6 +11,7 @@ import java.util.HashMap;
  * @Date : 2015/8/24 9:41
  */
 public class CharCounter {
+    private static final int NOT_EXISTS_NUM = 0;
     public HashMap correctChars = new HashMap();
     public HashMap incorrectChars = new HashMap();
     private AbstractTableModel abstractTableModel;
@@ -35,7 +36,7 @@ public class CharCounter {
             Integer key = new Integer(c);
             Integer num = (Integer) correctChars.get(key);
             if(num == null) {
-                return 0;
+                return NOT_EXISTS_NUM;
             }
             return num.intValue();
         }
@@ -61,7 +62,7 @@ public class CharCounter {
             Integer key = new Integer(c);
             Integer num = (Integer) incorrectChars.get(key);
             if(num == null){
-                return 0;
+                return NOT_EXISTS_NUM;
             }
             return num.intValue();
         }

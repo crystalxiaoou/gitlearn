@@ -27,6 +27,9 @@ public class CharacterTracker extends JPanel {
     private class CharacterTracerModel extends AbstractTableModel {
 
         private static final int COLUMN_COUNT = 3;
+        private static final int CHARACTER_CASE = 0;
+        private static final int CORRECT_NUM_CASE = 1;
+        private static final int INCORRECT_NUM_CASE = 2;
 
         public int getRowCount() {
             return charAt.length;
@@ -41,11 +44,11 @@ public class CharacterTracker extends JPanel {
         }
         public Object getValueAt(int rowIndex, int columnIndex) {
             switch(columnIndex){
-                case 0:
+                case CHARACTER_CASE:
                     return Character.toString((char) charAt[rowIndex]);
-                case 1:
+                case CORRECT_NUM_CASE:
                     return Integer.toString(counter.getCorrectNum(charAt[rowIndex]));
-                case 2:
+                case INCORRECT_NUM_CASE:
                     return Integer.toString(counter.getIncorrectNum(charAt[rowIndex]));
                 default:
                     throw new IllegalArgumentException("Too many cols");

@@ -17,6 +17,8 @@ import java.awt.event.*;
  * @Date : 2015/8/14 14:33
  */
 public class SwingTypeTester extends JFrame implements CharacterSource {
+    private static final int FONT_SIZE = 30;
+    private static final int EXIT_STATUS = 0;
     protected RandomCharacterGenerator producer;
     private AnimatedCharacterDisplayCanvas displayCanvas;
     private CharacterDisplayCanvas feedbackCanvas;
@@ -56,7 +58,7 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
 
         JPanel p2 = new JPanel();
         score.setText("         ");
-        score.setFont(new Font("MONOSPACED", Font.BOLD, 30));
+        score.setFont(new Font("MONOSPACED", Font.BOLD, FONT_SIZE));
         p2.add(score);
         startButton.setText("Start");
         p2.add(startButton);
@@ -123,7 +125,7 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
     }
 
     private void quit() {
-        System.exit(0);
+        System.exit(EXIT_STATUS);
     }
 
     public void addCharacterListener(CharacterListener cl) {
