@@ -1,13 +1,14 @@
-package javathreads.examples.ch05.example1;
+package javathreads.examples.ch12.example1;
 
-import javathreads.examples.ch04.CharacterDisplayCanvas;
-import javathreads.examples.ch04.CharacterEventHandler;
-import javathreads.examples.ch04.CharacterListener;
-import javathreads.examples.ch04.CharacterSource;
+import javathreads.examples.ch12.CharacterDisplayCanvas;
+import javathreads.examples.ch12.CharacterEventHandler;
+import javathreads.examples.ch12.CharacterListener;
+import javathreads.examples.ch12.CharacterSource;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
 
 /**
  * Created by hombre on 2015/8/14.
@@ -26,13 +27,13 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
     private CharacterEventHandler handler;
     private ScoreLabel score;
 
-    public SwingTypeTester(){
-        initComponents();
+    public SwingTypeTester(String host, int port) throws IOException {
+        initComponents(host, port);
     }
 
-    private void initComponents() {
+    private void initComponents(String host, int port) throws IOException {
         handler = new CharacterEventHandler();
-        producer = new RandomCharacterGenerator();
+        producer = new RandomCharacterGenerator(host, port);
         producer.setDone(true);
         producer.start();
         displayCanvas = new AnimatedCharacterDisplayCanvas(producer);
@@ -119,16 +120,28 @@ public class SwingTypeTester extends JFrame implements CharacterSource {
         handler.addCharacterListener(cl);
     }
 
-    public void revmoceCharacterListener(CharacterListener cl) {
+
+    public void removeCharacterListener(CharacterListener cl) {
         handler.removeCharacterListener(cl);
     }
-
 
     public void nextCharacter() {
         throw new IllegalStateException("We don't produce an demand");
     }
 
     public static void main(String[] args)  {
-        new SwingTypeTester().show();
+        String host = "localhost";
+        int port = 8003;
+        if(args.length >= 1){
+            host = args[0];
+        }
+        if(args.length == 2){
+            port = Integer.parseInt(args[1]);
+        }
+        try {
+            new SwingTypeTester(host, port).show();
+        } catch (IOException ioe){
+            System.out.println("Can't contact server " + host + " on port " + port + ": " + ioe);
+        }
     }
 }

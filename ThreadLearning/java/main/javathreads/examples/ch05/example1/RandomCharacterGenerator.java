@@ -47,6 +47,7 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
         handler.removeCharacterListener(cl);
     }
 
+
     public void nextCharacter() {
         handler.fireNewCharacter(this,
                                  (int) chars[random.nextInt(chars.length)]);
