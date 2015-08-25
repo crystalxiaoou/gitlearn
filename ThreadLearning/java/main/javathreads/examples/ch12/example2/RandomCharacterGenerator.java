@@ -81,16 +81,18 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
 
 
     public void nextCharacter(){
-        handler.fireNewCharacter(this, (int)chars[curChar++]);
-        if(curChar == chars.length){
-            try {
-                getString();
-            } catch (IOException iOException){
-                // 跳出对话框，警告用户有错误
-               JOptionPane.showMessageDialog(null, "客户端请求新字符串错误", "有错误",
-                        JOptionPane.WARNING_MESSAGE);
-            }
-        }
+       try {
+           if(chars == null){
+               getString();
+           }
+           handler.fireNewCharacter(this, (int) chars[curChar++]);
+           if(curChar == chars.length){
+               getString();
+           }
+       } catch (IOException ioe){
+            JOptionPane.showMessageDialog(null, "Client connect server error", "client error",
+                    JOptionPane.INFORMATION_MESSAGE);
+       }
     }
 
     /**

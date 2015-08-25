@@ -83,8 +83,7 @@ public class RandomCharacterGenerator extends Thread implements CharacterSource 
                 getString();
             } catch (IOException iOException){
                 // 跳出对话框，警告用户有错误
-               JOptionPane.showMessageDialog(null, "客户端请求新字符串错误", "有错误",
-                        JOptionPane.WARNING_MESSAGE);
+            //   JOptionPane.showMessageDialog(null, "客户端请求新字符串错误", "有错误", JOptionPane.INFORMATION_MESSAGE);
             }
         }
     }
