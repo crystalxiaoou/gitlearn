@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792d9f1-0fb2-4793-afa7-2d256af9e923" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/AtomicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CollectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/HashTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/ModVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/Timestamp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/LoopHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example3/SinTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gitlearn.iws" />
@@ -63,11 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SinTable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SinTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6052632">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoopHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/LoopHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinTable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example3/SinTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8684211">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -94,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch09/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example1/Task.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example1/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example2/Task.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example2/SingleThreadAccess.java" />
@@ -145,6 +157,8 @@
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/LoopHandler.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example3/SinTable.java" />
       </list>
     </option>
   </component>
@@ -315,6 +329,70 @@
               <option name="myItemId" value="ch15" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -418,27 +496,7 @@
       <recent name="javathreads.examples.ch10.example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinTable (1)">
-    <configuration default="false" name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch14.CollectionTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="1000" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThreadLearning" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SinTable (2)">
     <configuration default="false" name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -507,6 +565,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch15.example2.SinTable" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThreadLearning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SinTable (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javathreads.examples.ch15.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch15.example3.SinTable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1000,20 +1078,20 @@
       <item index="6" class="java.lang.String" itemvalue="Application.CalcServer" />
       <item index="7" class="java.lang.String" itemvalue="Application.CalcClient" />
       <item index="8" class="java.lang.String" itemvalue="Application.InterrruptibleClient" />
-      <item index="9" class="java.lang.String" itemvalue="Application.CollectionTest" />
-      <item index="10" class="java.lang.String" itemvalue="Application.AtomicTest" />
-      <item index="11" class="java.lang.String" itemvalue="Application.HashTest" />
-      <item index="12" class="java.lang.String" itemvalue="Application.CreateTest" />
-      <item index="13" class="java.lang.String" itemvalue="Application.SinTable" />
-      <item index="14" class="java.lang.String" itemvalue="Application.SinTable (1)" />
+      <item index="9" class="java.lang.String" itemvalue="Application.AtomicTest" />
+      <item index="10" class="java.lang.String" itemvalue="Application.HashTest" />
+      <item index="11" class="java.lang.String" itemvalue="Application.CreateTest" />
+      <item index="12" class="java.lang.String" itemvalue="Application.SinTable" />
+      <item index="13" class="java.lang.String" itemvalue="Application.SinTable (1)" />
+      <item index="14" class="java.lang.String" itemvalue="Application.SinTable (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SinTable (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SinTable" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HashTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AtomicTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CollectionTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SinTable (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SinTable (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SinTable" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HashTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AtomicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1039,12 +1117,12 @@
       <workItem from="1440462195546" duration="7288000" />
       <workItem from="1440472406742" duration="1484000" />
       <workItem from="1440485330618" duration="8277000" />
-      <workItem from="1440636092812" duration="10101000" />
+      <workItem from="1440636092812" duration="12245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87504000" />
+    <option name="totallyTimeSpent" value="89648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
@@ -1058,8 +1136,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34986594" sideWeight="0.46919772" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34986594" sideWeight="0.5308023" order="7" side_tool="true" content_ui="tabs" x="22" y="300" width="1396" height="260" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34986594" sideWeight="0.46346706" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34986594" sideWeight="0.53653294" order="7" side_tool="true" content_ui="tabs" x="22" y="300" width="1396" height="260" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20272206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1129,20 +1207,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/javax/swing/JOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="606" column="23" selection-start-line="606" selection-start-column="23" selection-end-line="606" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example1/URLPingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example1/TimeoutTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1611,8 +1675,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6052632">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/LoopHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example3/SinTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8684211">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>
