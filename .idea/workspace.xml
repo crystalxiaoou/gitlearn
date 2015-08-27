@@ -3,10 +3,18 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch04/CharacterEventHandler.java" line="12" />
     <bookmark url="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example4/CharacterTracker.java" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/AtomicTest.java" line="39" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792d9f1-0fb2-4793-afa7-2d256af9e923" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch13/TestOverride.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/AtomicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CollectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/HashTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/ModVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/Timestamp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gitlearn.iws" />
@@ -31,158 +39,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TCPThrottledServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/TCPThrottledServer.java">
+      <file leaf-file-name="CreateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#800#801#0" expanded="false" />
-                <element signature="e#827#828#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterruptibleReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/InterruptibleReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterrruptibleClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/InterrruptibleClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwingTypeTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/example2/SwingTypeTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2271#2417#0" expanded="false" />
-                <element signature="e#2416#2417#0" expanded="false" />
-                <element signature="e#2458#2725#0" expanded="false" />
-                <element signature="e#2724#2725#0" expanded="false" />
-                <element signature="e#2766#3180#0" expanded="false" />
-                <element signature="e#3179#3180#0" expanded="false" />
-                <element signature="e#3220#3550#0" expanded="false" />
-                <element signature="e#3549#3550#0" expanded="false" />
-                <element signature="e#3590#3717#0" expanded="false" />
-                <element signature="e#3716#3717#0" expanded="false" />
-                <element signature="e#3780#3781#0" expanded="false" />
-                <element signature="e#3829#3830#0" expanded="false" />
-                <element signature="e#3856#3857#0" expanded="false" />
-                <element signature="e#3886#3887#0" expanded="false" />
-                <element signature="e#3948#3949#0" expanded="false" />
-                <element signature="e#3996#3997#0" expanded="false" />
-                <element signature="e#4062#4063#0" expanded="false" />
-                <element signature="e#4113#4114#0" expanded="false" />
-                <element signature="e#4148#4149#0" expanded="false" />
-                <element signature="e#4225#4226#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCPNIOServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/TCPNIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalcServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/example4/CalcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOverride.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch13/TestOverride.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86764705">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#4287#4288#0" expanded="true" />
+                <element signature="e#4309#4310#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/example4/CalcClient.java">
+      <file leaf-file-name="SinTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/example3/TypeServer.java">
+      <file leaf-file-name="SinTable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.6052632">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InetSocketAddress.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/net/InetSocketAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#13858#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1762#1763#0" expanded="false" />
-                <element signature="e#1797#1798#0" expanded="false" />
-                <element signature="e#1841#1842#0" expanded="false" />
-                <element signature="e#1876#1877#0" expanded="false" />
-                <element signature="e#2479#2480#0" expanded="false" />
-                <element signature="e#2522#2523#0" expanded="false" />
-                <element signature="e#7273#7274#0" expanded="false" />
-                <element signature="e#7347#7348#0" expanded="false" />
-                <element signature="e#10798#10799#0" expanded="false" />
-                <element signature="e#10837#10838#0" expanded="false" />
-                <element signature="e#11026#11027#0" expanded="false" />
-                <element signature="e#11068#11069#0" expanded="false" />
-                <element signature="e#11349#11350#0" expanded="false" />
-                <element signature="e#11392#11393#0" expanded="false" />
-                <element signature="e#11751#11752#0" expanded="false" />
-                <element signature="e#11796#11797#0" expanded="false" />
-                <element signature="e#12042#12043#0" expanded="false" />
-                <element signature="e#12086#12087#0" expanded="false" />
-                <element signature="e#12511#12512#0" expanded="false" />
-                <element signature="e#12551#12552#0" expanded="false" />
-                <element signature="e#13814#13815#0" expanded="false" />
-                <element signature="e#13854#13855#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,6 +78,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -207,14 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example4/SwingTypeTester.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example4/CharacterTracker.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example4/CharCounter.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example6/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example6/FibonacciProducer.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example6/FibonacciConsumer.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch08/example6/FibonacciTest.java" />
-        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch09/Task.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch09/ThreadTest.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example1/Task.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch10/example1/ThreadPoolTest.java" />
@@ -258,6 +137,14 @@
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/InterruptibleReader.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch12/InterrruptibleClient.java" />
         <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch13/TestOverride.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/ModVector.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/Timestamp.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/AtomicTest.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/HashTest.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java" />
+        <option value="$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java" />
       </list>
     </option>
   </component>
@@ -425,7 +312,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch13" />
+              <option name="myItemId" value="ch15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,77 +418,17 @@
       <recent name="javathreads.examples.ch10.example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestOverride">
-    <configuration default="false" name="SwingTypeTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SinTable (1)">
+    <configuration default="false" name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch11.example2.*" />
+          <option name="PATTERN" value="javathreads.examples.ch14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch11.example2.SwingTypeTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThreadLearning" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwingTypeTester (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch12.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch12.example1.SwingTypeTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThreadLearning" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwingTypeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch05.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch05.example1.SwingTypeTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThreadLearning" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TypeServer2" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch12.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch12.example3.TypeServer" />
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch14.CollectionTest" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="11000" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -574,14 +439,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TestOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="javathreads.examples.ch13.*" />
+          <option name="PATTERN" value="javathreads.examples.ch14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch13.TestOverride" />
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch14.AtomicTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1000 5" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThreadLearning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javathreads.examples.ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch14.HashTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1000 10" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThreadLearning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SinTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javathreads.examples.ch15.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch15.example1.SinTable" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThreadLearning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SinTable (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javathreads.examples.ch15.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch15.example2.SinTable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1045,7 +970,27 @@
       <envs />
       <method />
     </configuration>
-    <list size="14">
+    <configuration default="false" name="CreateTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javathreads.examples.ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javathreads.examples.ch14.CreateTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="2000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThreadLearning" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Application.ThreadPoolTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.SingleThreadTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.URLMonitorPanel" />
@@ -1055,19 +1000,20 @@
       <item index="6" class="java.lang.String" itemvalue="Application.CalcServer" />
       <item index="7" class="java.lang.String" itemvalue="Application.CalcClient" />
       <item index="8" class="java.lang.String" itemvalue="Application.InterrruptibleClient" />
-      <item index="9" class="java.lang.String" itemvalue="Application.SwingTypeTester (2)" />
-      <item index="10" class="java.lang.String" itemvalue="Application.SwingTypeTester (3)" />
-      <item index="11" class="java.lang.String" itemvalue="Application.SwingTypeTester" />
-      <item index="12" class="java.lang.String" itemvalue="Application.TypeServer2" />
-      <item index="13" class="java.lang.String" itemvalue="Application.TestOverride" />
+      <item index="9" class="java.lang.String" itemvalue="Application.CollectionTest" />
+      <item index="10" class="java.lang.String" itemvalue="Application.AtomicTest" />
+      <item index="11" class="java.lang.String" itemvalue="Application.HashTest" />
+      <item index="12" class="java.lang.String" itemvalue="Application.CreateTest" />
+      <item index="13" class="java.lang.String" itemvalue="Application.SinTable" />
+      <item index="14" class="java.lang.String" itemvalue="Application.SinTable (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestOverride" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TypeServer2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SwingTypeTester (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SwingTypeTester" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SwingTypeTester (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SinTable (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SinTable" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HashTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AtomicTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1093,12 +1039,12 @@
       <workItem from="1440462195546" duration="7288000" />
       <workItem from="1440472406742" duration="1484000" />
       <workItem from="1440485330618" duration="8277000" />
-      <workItem from="1440636092812" duration="966000" />
+      <workItem from="1440636092812" duration="10101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78369000" />
+    <option name="totallyTimeSpent" value="87504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
@@ -1106,13 +1052,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.45833334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33914208" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3502604" sideWeight="0.47777778" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.049597856" sideWeight="0.5222222" order="7" side_tool="true" content_ui="tabs" x="22" y="300" width="1396" height="260" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34986594" sideWeight="0.46919772" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34986594" sideWeight="0.5308023" order="7" side_tool="true" content_ui="tabs" x="22" y="300" width="1396" height="260" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20272206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1122,7 +1069,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41152814" sideWeight="0.48065904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.45833334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1183,69 +1129,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example2/ScoreLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example2/RandomCharacterGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example2/FeedbackFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/CharacterEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/CharacterSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example2/AnimatedCharacterDisplayCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/CharacterDisplayCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch11/example2/SwingTypeTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="166" column="6" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/javax/swing/JOptionPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1597,8 +1480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch13/TestOverride.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86764705">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
@@ -1606,6 +1489,131 @@
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/ModVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="44" selection-start-line="168" selection-start-column="44" selection-end-line="168" selection-end-column="44" />
+          <folding>
+            <element signature="e#2614#2615#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4092#4093#0" expanded="true" />
+            <element signature="e#7414#7415#0" expanded="true" />
+            <element signature="e#7455#7456#0" expanded="true" />
+            <element signature="e#7616#7617#0" expanded="true" />
+            <element signature="e#7651#7652#0" expanded="true" />
+            <element signature="e#7922#7923#0" expanded="true" />
+            <element signature="e#7962#7963#0" expanded="true" />
+            <element signature="e#8526#8527#0" expanded="true" />
+            <element signature="e#8585#8586#0" expanded="true" />
+            <element signature="e#9292#9293#0" expanded="true" />
+            <element signature="e#9336#9337#0" expanded="true" />
+            <element signature="e#9885#9886#0" expanded="true" />
+            <element signature="e#9924#9925#0" expanded="true" />
+            <element signature="e#11756#11757#0" expanded="true" />
+            <element signature="e#11812#11813#0" expanded="true" />
+            <element signature="e#25892#25893#0" expanded="true" />
+            <element signature="e#25931#25932#0" expanded="true" />
+            <element signature="e#26478#26479#0" expanded="true" />
+            <element signature="e#26525#26526#0" expanded="true" />
+            <element signature="e#27695#27696#0" expanded="true" />
+            <element signature="e#27730#27731#0" expanded="true" />
+            <element signature="e#28225#28226#0" expanded="true" />
+            <element signature="e#28268#28269#0" expanded="true" />
+            <element signature="e#29731#29732#0" expanded="true" />
+            <element signature="e#29772#29773#0" expanded="true" />
+            <element signature="e#30360#30361#0" expanded="true" />
+            <element signature="e#30401#30402#0" expanded="true" />
+            <element signature="e#32616#32617#0" expanded="true" />
+            <element signature="e#32654#32655#0" expanded="true" />
+            <element signature="e#32754#32755#0" expanded="true" />
+            <element signature="e#32793#32794#0" expanded="true" />
+            <element signature="e#32960#32961#0" expanded="true" />
+            <element signature="e#32999#33000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0459183">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/AtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/HashTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.381579">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch14/CreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4287#4288#0" expanded="true" />
+            <element signature="e#4309#4310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example1/SinTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadLearning/java/main/javathreads/examples/ch15/example2/SinTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6052632">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
