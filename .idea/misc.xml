@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/ThreadLearning/pom.xml" />
         <option value="$PROJECT_DIR$/JVMLearning/pom.xml" />
+        <option value="$PROJECT_DIR$/NIO/pom.xml" />
       </list>
     </option>
   </component>

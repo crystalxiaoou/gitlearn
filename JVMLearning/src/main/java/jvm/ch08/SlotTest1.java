@@ -8,4 +8,8 @@ package jvm.ch08;
  * @Date : 2015/8/31 10:40
  */
 public class SlotTest1 {
+    public static void main(String[] args){
+        byte[] placeholder = new byte[64 * 1024 * 1024];
+        System.gc();
+    }
 }

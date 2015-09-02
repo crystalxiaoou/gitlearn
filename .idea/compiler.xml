@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="JVMLearning" />
         <module name="JVMLearningWebAPP" />
+        <module name="NIO" />
         <module name="ThreadLearning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JVMLearning" target="1.5" />
       <module name="JVMLearningWebAPP" target="1.5" />
+      <module name="NIO" target="1.5" />
       <module name="ThreadLearning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
